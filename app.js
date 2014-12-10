@@ -7,20 +7,20 @@ app.config(['$routeProvider',
 				templateUrl: 'partials/home.html',
 				controller: 'mainCtrl'
 			}).
-			when('/featured' {
+			when('/featured', {
 				templateUrl: 'partials/featured.html',
 				controller: 'featuredCtrl'
 			}).
-			when('/create' {
-				templateUrl: 'partials/featured.html',
+			when('/create', {
+				templateUrl: 'partials/create.html',
 				controller: 'createCtrl'
 			}).
-			when('/browse' {
+			when('/browse', {
 				templateUrl: 'partials/browse.html',
 				controller: 'browseCtrl'
 			}).
-			when('/login' {
-				templateUrl: 'partials/login.htlm',
+			when('/login', {
+				templateUrl: 'partials/login.html',
 				controller: 'loginCtrl'
 			}).
 			otherwise({

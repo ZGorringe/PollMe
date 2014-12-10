@@ -7,17 +7,15 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<header>
-			<div class="navbar">
-				<div class="btnContainer">
-					<div class="navbarButtons">Login or Sign-Up</div>
-					<div class="navbarButtons">Home</div>
-					<div class="navbarButtons">Featured</div>
-					<div class="navbarButtons">Create</div>
-					<div class="navbarButtons">Browse</div>
-				</div>
+		<div class="navbar">
+			<div class="btnContainer">
+				<div class="navbarButtons"><a href="/#/login">Login or Sign-Up</a></div>
+				<div class="navbarButtons"><a href="/">Home</a></div>
+				<div class="navbarButtons"><a href="/#/featured">Featured</a></div>
+				<div class="navbarButtons"><a href="/#/create">Create</a></div>
+				<div class="navbarButtons"><a href="/#/browse">Browse</a></div>
 			</div>
-		</header>
+		</div>
 		<div ng-view></div>
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>

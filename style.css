@@ -2,6 +2,16 @@ html {
 	font-size: 62.5%;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+	transition: color .3s ease;
+}
+
+a:hover {
+	color: orange;
+}
+
 .navbar {
 	width: auto;
 	background-color: rgb(28, 155, 234);
@@ -13,7 +23,7 @@ html {
 
 .btnContainer {
 	display: flex;
-	flex-directin: row;
+	flex-direction: row;
 }
 
 .navbarButtons {
